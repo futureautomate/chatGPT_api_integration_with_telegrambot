@@ -6,7 +6,7 @@ import apikeys
 
 
 def openLinkedIn(postContent):
-    profile = webdriver.FirefoxProfile(apikeys.fireFox_Profile)
+    profile = webdriver.FirefoxProfile('add your firefox profile')
     driver = webdriver.Firefox(firefox_profile=profile)
 
     driver.get('https://www.linkedin.com')
