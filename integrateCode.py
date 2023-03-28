@@ -2,7 +2,7 @@ import openai
 import apikeys
 
 # load and set our key
-openai.api_key = apikeys.ChatGptKey
+openai.api_key = 'add your chat gpt api'
 
 def getIntegrationContent():  
   completion = openai.ChatCompletion.create(
