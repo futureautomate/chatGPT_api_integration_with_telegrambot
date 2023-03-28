@@ -8,7 +8,7 @@ import apikeys
 import existingConnect
 import integrateCode
 
-updater = Updater(apikeys.BOT_TOKEN,
+updater = Updater('telegram bot token',
 				use_context=True)
 
 
